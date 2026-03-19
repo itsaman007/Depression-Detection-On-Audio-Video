@@ -1,0 +1,30 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large archives and generated artifacts
+*.zip
+
+# Large dataset/features folders (excluded from GitHub push)
+Audio_feature/
+Video_feature/
+dvlog-dataset/
+TCN_processed_video/
+confusion matrix/
+
+# Optional local experiment outputs
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
